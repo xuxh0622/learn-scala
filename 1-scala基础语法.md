@@ -1,3 +1,10 @@
+##### 运行
+
+```bash
+[**@** /]$ scalac HelloWorld.scala  #生成class文件
+[**@** /]$ scala HelloWorld  #调用执行main函数
+```
+
 ##### 变量
 
 > var变量声明，val常量声明。
