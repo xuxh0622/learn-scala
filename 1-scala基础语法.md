@@ -3,6 +3,9 @@
 ```bash
 [**@** /]$ scalac HelloWorld.scala  #生成class文件
 [**@** /]$ scala HelloWorld  #调用执行main函数
+[**@** /]$ scala  #进入scala解释器环境
+[**@** /]$ :help  #列出常用scala解释器命令
+[**@** /]$ :quit  #退出环境
 ```
 
 ##### 变量
@@ -10,10 +13,10 @@
 > var变量声明，val常量声明。
 
 ```java
-//var VariableName : DataType [= Initial Value]声明格式
-var myVar :Int;  //带类型声明
-var myVar = 10;  //带值声明
-var xmax, ymax = 100;  //多个变量声明
+//var VariableName : DataType [= Initial Value]声明格式，多行编写shift+enter换行
+scala> var myVar :Int;  //带类型声明
+scala> var myVar = 10;  //带值声明
+scala> var xmax, ymax = 100;  //多个变量声明
 ```
 
 ##### 访问修饰符
