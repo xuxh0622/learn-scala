@@ -1,8 +1,8 @@
-##### 实现HelloWorld
+# HelloWorld
 
-***
+[TOC]
 
-###### 交互方式 
+## 交互方式
 
 ```bash
 [**@** /]$ cd /usr/alice/java/scala-2.12.2/bin  #如果没有配置到PATH环境变量
@@ -16,7 +16,7 @@ scala> }
 scala> HelloWorld.main(null)
 ```
 
-###### 文本方式
+## 文本方式
 
 ```bash
 [**@** /]$ cd /usr/home/alice/code/scala
