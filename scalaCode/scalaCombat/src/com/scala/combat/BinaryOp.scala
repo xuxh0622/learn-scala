@@ -5,8 +5,10 @@ package com.scala.combat
 trait BinaryOp {
   val op:String 
   
+  //在某个值后面使用()解析为调用该对象apply方法
   def apply(expr1:String, expr2:String) = expr1 + expr2
   
+  //Option元祖
   def unapply(str:String) : Option[(String,String)] = {
     val index = str indexOf(op)
     if(index> 0)

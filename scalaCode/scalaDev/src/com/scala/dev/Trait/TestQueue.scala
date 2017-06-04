@@ -21,6 +21,10 @@ class BasicIntQueue extends IntQueue{
 }
 
 trait Doubling extends IntQueue{
+  /**
+   * trait继承自某个类，可以使用override关键字重写其方法
+   * abstract override关键字组合保证混入这个trait对象实现了这个方法，因为要调用super动态绑定
+   */
   abstract override def put(x:Int){
     super.put(2*x)
   }
