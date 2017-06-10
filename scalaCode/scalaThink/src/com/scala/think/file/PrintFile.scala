@@ -25,6 +25,6 @@ object PrintFile {
   def widthOfLength(s:String) = s.length().toString().length()
   
   def main(args: Array[String]): Unit = {
-    getFile(Array(new File("src/com/scala/think/two/PrintFile.scala")));
+    getFile(Array(new File("src/com/scala/think/file/PrintFile.scala")));
   }
 }
