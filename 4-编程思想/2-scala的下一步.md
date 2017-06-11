@@ -49,6 +49,8 @@ print(paif._1)
 
 > set集合分可变和不可变类型，包路径不同
 
+![特质序列](https://github.com/xuxh0622/learn-scala/blob/master/image/set.png)
+
 ```scala
 //默认不可变集合
 var jetSet = Set("Boeing", "Airbus")
@@ -64,6 +66,8 @@ val hashSet = HashSet("Tomatoes", "Chilies")
 ```
 
 > Map也分为可变不可变
+
+![特质序列](https://github.com/xuxh0622/learn-scala/blob/master/image/map.png)
 
 ```scala
 import scala.collection.mutable.Map
