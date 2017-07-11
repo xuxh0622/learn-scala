@@ -73,7 +73,7 @@ val hashSet = HashSet("Tomatoes", "Chilies")
 import scala.collection.mutable.Map
 //声明Map
 val treasureMap = Map[Int,String]()
-//1 -> "Go to island"二院操作等价(1).->"Go to island"，返回二元数组
+//1 -> "Go to island"二元操作等价(1).->"Go to island"，返回二元数组
 treasureMap += (1 -> "Go to island")
 print(treasureMap(0))
 //默认不可变Map，传入工厂方法2个键/值元祖
